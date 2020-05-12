@@ -26,8 +26,7 @@ function MovieDetail(props) {
   }, []);
   return (
     <div>
-      {/* Header */}
-
+      {/* Header */} /* d dd */
       <MainImage
         image={`${IMAGE_BASE_URL}w1280${Movie.backdrop_path}`}
         title={Movie.original_title}
